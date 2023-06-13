@@ -21,7 +21,7 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'shapeColor',
+    name: 'shape_color',
     message: 'Enter the color in hex or keyword format for the logo shape',
 
 },];
@@ -35,8 +35,9 @@ function writeToFile(fileName, data) {
 function init() {
     // request user specifications with inquirer
     inquirer.prompt(questions).then((specs) => {
-        writeToFile("./Logo.svg", generateSVG(specs));
         console.log(specs)
+        writeToFile("./Logo.svg", generateSVG(specs));
+        // console.log(specs)
     });
 }
 
