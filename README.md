@@ -17,6 +17,7 @@ This is a repository for a SVG logos geneator
 npm -i
 ## Usage
 walk through video
+https://youtu.be/TeC2l2BIEwk
 
 
 ## Technologies
