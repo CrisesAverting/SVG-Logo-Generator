@@ -1,7 +1,7 @@
 <svg version="1.1" width="200" height="300" xmlns="http://www.w3.org/2000/svg">
 
-          <rect width="75%" height="25%" fill="undefined"/>
+          <circle cx="100" cy="150" r="99" stroke="black" stroke-width="3" fill="undefined"/>
 
-           <text x="90" y="150" font-size="30" fill="red">WTF</text>
+           <text x="90" y="150" font-size="30" fill="red">Why</text>
 
         </svg>
